@@ -85,7 +85,7 @@ fs.mkdirSync(outputDir, { recursive: true });
 const safeCompany = company.toLowerCase().replace(/[^a-z0-9]/g, "-");
 const safeRole    = role.toLowerCase().replace(/[^a-z0-9]/g, "-");
 const date        = new Date().toISOString().split("T")[0];
-const filename    = `anoj-sk_${safeCompany}_${safeRole}_${date}.pdf`;
+const filename    = `mansoor-makandar_${safeCompany}_${safeRole}_${date}.pdf`;
 const outputPath  = path.join(outputDir, filename);
 
 console.log(`\n📄 Generating PDF...`);
@@ -112,3 +112,4 @@ const sizeKb = Math.round(fs.statSync(outputPath).size / 1024);
 console.log(`✅ PDF saved: ${filename}  (${sizeKb} KB)`);
 console.log(`\nATS tip: File is under 1MB and text-only — safe for all Indian ATS systems.`);
 console.log(`Upload path: ${outputPath}\n`);
+

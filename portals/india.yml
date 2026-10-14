@@ -12,9 +12,16 @@
 
 greenhouse:
 
+  - name: Slice
+    slug: slice
+    tier: "1"
+    domain: fintech/credit
+    hq: Bangalore
+
+
   # ── Fintech ────────────────────────────────────────────────────────────────
   - name: Razorpay
-    slug: razorpay
+    slug: razorpaysoftwareprivatelimited
     tier: "1"
     domain: fintech
     hq: Bangalore
@@ -524,6 +531,25 @@ greenhouse:
 
 
 lever:
+
+  - name: Paytm
+    slug: paytm
+    tier: "1"
+    domain: fintech/payments
+    hq: Noida
+
+  - name: Porter
+    slug: porter
+    tier: "2"
+    domain: logistics
+    hq: Bangalore
+
+  - name: Fi Money
+    slug: fi
+    tier: "2"
+    domain: neobank/fintech
+    hq: Bangalore
+
 
   # ── Tier 1 ─────────────────────────────────────────────────────────────────
   - name: CRED
